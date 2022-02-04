@@ -1,0 +1,56 @@
+body
+{
+    
+    font-family: 'Lato', sans-serif;
+}
+
+#containerFooter
+{
+    margin-top: 30%;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    letter-spacing: 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 300px;
+    box-sizing: border-box;
+}
+#containerFooter h3:hover, #containerFooter p:hover
+{
+    color: lightslategray;
+    cursor: pointer;
+}
+#webFooter
+{
+    padding-top: 30px;
+    font-size: 12px;
+   
+}
+#webFoot
+{
+    padding-top: 30px;
+    font-size: 12px;
+    margin-left: 150%;
+}
+#credit 
+{
+    width: 100%;
+    margin: auto;
+     margin-top: 0px;
+    /*margin-left: -180%; */
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.image{
+    float:right;
+    margin-left: 100%;
+    margin-top:15px;
+}
